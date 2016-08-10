@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "username": "user1",
+            "name": "name1",
+            "active": true
+        },
+        {
+            "username": "user2",
+            "name": "name2",
+            "active": true
+        },
+        {
+            "username": "user3",
+            "name": "name3",
+            "active": true
+        },
+        {
+            "username": "user4",
+            "name": "name4",
+            "active": true
+        }
+    ]
+}
