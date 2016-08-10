@@ -115,7 +115,7 @@ See [demo](https://jmvtrinidad.github.io/angular2-datagrid/) here.
 
 5. [demo](http://jmvtrinidad.github.io/angular2-datagrid/)
 
-# Webpack-starter
+# angular2-webpack-starter
 Based on [webpack-starter](https://github.com/AngularClass/angular2-webpack-starter).
 
 # License
