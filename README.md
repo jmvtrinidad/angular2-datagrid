@@ -2,7 +2,8 @@
 Angular2-datagrid provides functionality to create tables, image grid, etc.
 It allows developer to create desired template.
 
-
+# Demo
+See [demo](https://jmvtrinidad.github.io/angular2-datagrid/) here.
 
 ##Getting started
 
