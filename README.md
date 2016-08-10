@@ -13,7 +13,7 @@ See [demo](https://jmvtrinidad.github.io/angular2-datagrid/) here.
     npm i angular2-datagrid
     ```
 
-2. Specify your template. This is sample template to view data on [table]().
+2. Specify your template. This is sample template to view data on [table](https://github.com/jmvtrinidad/angular2-datagrid/blob/master/src/app/demo/inMemory.component.html).
 
     ```html
     <section>
@@ -106,7 +106,7 @@ See [demo](https://jmvtrinidad.github.io/angular2-datagrid/) here.
     </section>
     ```
 
-3. Instantiate ng2-datagrid [class]().
+3. Instantiate ng2-datagrid [class](https://github.com/jmvtrinidad/angular2-datagrid/blob/master/src/app/demo/inMemory.component.ts).
 
     ```TypeScript
     
