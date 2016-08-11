@@ -15,6 +15,10 @@ import { disableDeprecatedForms, provideForms } from '@angular/forms';
 import { provideWebpack } from '@angularclass/webpack-toolkit';
 import { providePrefetchIdleCallbacks } from '@angularclass/request-idle-callback';
 
+
+// For async
+// import { routes, asyncRoutes, prefetchRouteCallbacks } from '../app/app.routes';
+import { routes } from '../app/app.routes';
 /*
 * Application Providers/Directives/Pipes
 * providers/directives/pipes that only live in our browser environment
@@ -24,6 +28,7 @@ export const APPLICATION_PROVIDERS = [
   disableDeprecatedForms(),
   provideForms(),
 
+  provideRouter(routes),
 
   ...HTTP_PROVIDERS,
 

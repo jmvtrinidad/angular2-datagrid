@@ -1,7 +1,7 @@
 {
   "name": "angular2-datagrid",
-  "version": "1.0.1",
-  "description": "An Angular 2 datagrid functions. Can be used in table, image grid, etc.",
+  "version": "1.0.5",
+  "description": "Angular2-datagrid provides functionality to create tables, image grid, etc. It allows developer to create desired template.",
   "keywords": [
     "angular2",
     "webpack",

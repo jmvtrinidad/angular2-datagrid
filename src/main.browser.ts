@@ -26,7 +26,7 @@ export function main(initialHmrState?: any): Promise<any> {
     // To add more vendor providers please look in the platform/ folder
     ...PLATFORM_PROVIDERS,
     ...ENV_PROVIDERS,
-    ...APP_PROVIDERS,
+    ...APP_PROVIDERS
   ])
   .then(decorateComponentRef)
   .catch(err => console.error(err));
