@@ -186,7 +186,9 @@ module.exports = {
         test: /\.html$/,
         loader: 'raw-loader',
         exclude: [helpers.root('src/index.html')]
-      }
+      },
+
+      { test: /\.md$/, loader: "raw-loader!markdown" },
 
     ]
 

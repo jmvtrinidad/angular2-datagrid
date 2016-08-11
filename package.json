@@ -1,6 +1,6 @@
 {
   "name": "angular2-datagrid",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Angular2-datagrid provides functionality to create tables, image grid, etc. It allows developer to create desired template.",
   "keywords": [
     "angular2",
@@ -117,6 +117,7 @@
     "karma-mocha-reporter": "^2.0.0",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "1.7.0",
+    "markdown-loader": "^0.1.7",
     "node-sass": "^3.8.0",
     "parse5": "^1.5.1",
     "protractor": "^3.2.2",
