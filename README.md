@@ -5,12 +5,30 @@ It allows developer to create desired template.
 # Demo
 See [demo](https://jmvtrinidad.github.io/angular2-datagrid/) here.
 
+To quickly include sample demo in your application, just import TableComponent
+
+```TypeScript
+import { TableComponent } from 'angular2-datagrid/src/app/demo';
+```
+    
+then include it in your template
+
+```html
+<table-demo></table-demo>
+```
+
+Make sure your app inlcudes bootstrap css for styling.
+You can make your own template based on css framework that you prefer.
+
+** NOTE: bootstrap.css is not required, however in order to render it neatly you need to include it for demo purposes.
+
+
 ##Getting started
 
 1. Install package.
 
     ```
-    npm i angular2-datagrid
+    npm i angular2-datagrid --save
     ```
 
 2. Specify your template. This is sample template to view data on [table](https://github.com/jmvtrinidad/angular2-datagrid/blob/master/src/app/demo/inMemory.component.html).
@@ -109,11 +127,27 @@ See [demo](https://jmvtrinidad.github.io/angular2-datagrid/) here.
 3. Instantiate ng2-datagrid [class](https://github.com/jmvtrinidad/angular2-datagrid/blob/master/src/app/demo/inMemory.component.ts).
 
     ```TypeScript
+    import { NgDataGridModel } from 'angular2-datagrid';
     
     this.table = new NgDataGridModel<User>([]);
     ```
 
 5. [demo](http://jmvtrinidad.github.io/angular2-datagrid/)
+
+# Documentation
+R is read only.
+
+:-) as it is.
+
+- `searchValue: T` - any object to be used for searching `items`. 
+- `currentPageIndex` - :-).
+- `pageSize: number` - max record count for `itemsOnCurrentPage`.
+- `totalRows: number, R` - record count for `items`.
+- `totalFilteredRows: number, R` - record count for `itemsFiltered`.
+- `maxPageIndex: number, R` - calculated based on `totalFilteredRows / pageSize`. See sample usage [here](https://github.com/jmvtrinidad/angular2-datagrid/blob/master/src/app/datagrid/pagination.component.ts)
+- `items: T[]` - all records. Manipulate records here
+- `itemsFiltered: T[], R` - :-).
+- `itemsOnCurrentPage, R` - normally this property is used to displayed contents.
 
 # angular2-webpack-starter
 Based on [webpack-starter](https://github.com/AngularClass/angular2-webpack-starter).
